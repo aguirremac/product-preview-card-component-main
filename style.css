@@ -93,7 +93,7 @@ body {
     border: none;
 }
 
-.product-btn:hover, .product-btn:focus  {
+.product-btn:hover  {
     background-color: hsl(158, 36%, 11%);
 }
 
