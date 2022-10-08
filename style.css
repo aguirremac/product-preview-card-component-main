@@ -7,8 +7,9 @@ html {
 
 body {
     background-color: hsl(30, 38%, 92%);
-    display: flex;
-    justify-content: center;
+    display: grid;
+	grid-template-rows: 1fr auto;
+	place-items: center;
     align-items: center;
     min-height: 100vh;
     /* text-align: center; */
@@ -107,6 +108,20 @@ body {
 
 .product-img-large {
     display: none;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 10px;
+    height: 33.33%;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+}
+
+.signature-container {
+    display: flex;
+    align-items: flex-end;
 }
 
 
